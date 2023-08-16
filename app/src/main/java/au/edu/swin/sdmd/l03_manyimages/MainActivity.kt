@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         val theatre = findViewById<Button>(R.id.theatre)
         theatre.setOnClickListener(onClickTheatre)
-        //theatre.setOnClickListener { onClickTheatre2?.invoke() }
+        theatre.setOnClickListener { onClickTheatre2?.invoke() }
 
     }
 
